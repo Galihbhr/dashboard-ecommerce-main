@@ -4,3 +4,4 @@ numpy==2.0.2
 pip==24.3.1
 Streamlit==1.39.0
 matplotlib==3.9.2
+Babel==2.14.0
