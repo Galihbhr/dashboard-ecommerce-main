@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-all_df = pd.read_csv(r"C:\Users\Galih\Documents\coding\dashboard\dashboard-ecommerce-main\data\all_df.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/Galihbhr/dashboard-ecommerce-main/refs/heads/main/dashboard/all_df.csv")
 st.header('Ecommerce Dashboard :sparkles:')
 
 
