@@ -1,0 +1,7 @@
+seaborn : 0.13.2
+pandas  : 2.2.3
+numpy   : 2.0.2
+pip     : 24.3.1
+python  : 3.12.6
+Streamlit : 1.39.0
+matplotlib: 3.9.2
