@@ -36,7 +36,7 @@ def create_customer_demo_df(df):
     return customers_demo_df
 
 
-all_df = pd.read_csv(r"C:\Users\Galih\Documents\coding\dashboard\dashboard-ecommerce-main\dashboard\new\all_df.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/Galihbhr/dashboard-ecommerce-main/refs/heads/main/dashboard/all_df.csv")
 
 datetime_columns = ["order_purchase_timestamp"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
